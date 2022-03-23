@@ -7,13 +7,13 @@ def callback():
 
 #create Label
 label = Label(root, text="hello python")
-label.pack
+label.pack()
 
 #create button(now with the command function)
 button= Button(root, text = "click me!", command=callback)
 button["state"]="disabled"  #can disable the button
 button["state"]="normal" #back to normal
-button.pack
+button.pack()
 
 root.geometry("350x300")
 root.mainloop()
